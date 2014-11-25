@@ -1,0 +1,2 @@
+create 't1', {NAME => 'f1', VERSIONS => 'g1', TTL => 'a2592000', BLOCKCACHE => 'true'}
+

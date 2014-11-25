@@ -1,0 +1,1 @@
+create 't1', {NAME => 'f1', VERSIONS => 'd5'}

@@ -1,0 +1,10 @@
+CREATE 		 --> create ''' idf ''' LISTE_CF
+LISTE_CF	 --> ',' CF LISTE_CFAUX
+LISTE_CFAUX	 --> LISTE_CF | epsilon
+CF		 --> '{' LISTE_DESC_CF'}' 
+		 --> ''' idf '''
+DESC_CF		 --> NAME | DATA_BLOCK_ENCODING |... |...|...
+LISTE_DESC_CF    -->  DESC_CF '=>' idf , LISTE_DESC_CFAUX
+LISTE_DESC_CFAUX -->  ',' LISTE_DESC_CF | epsilon
+
+

@@ -1,0 +1,2 @@
+ create ‘t1′, {NAME => ‘f1′}, {NAME => ‘f2′}, {NAME => ‘f3′}
+
